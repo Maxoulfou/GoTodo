@@ -1,3 +1,10 @@
+/*
+Copyright © 2022 Brochier Maxence maxence@brochier.xyz
+
+*/
+
+// TODO : fix this part to make fully functional with Win and Unix
+
 package utilities
 
 import "fmt"

@@ -1,3 +1,7 @@
+/*
+Copyright © 2022 Brochier Maxence maxence@brochier.xyz
+
+*/
 package execution
 
 import (

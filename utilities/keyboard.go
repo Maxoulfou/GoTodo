@@ -1,3 +1,7 @@
+/*
+Copyright © 2022 Brochier Maxence maxence@brochier.xyz
+
+*/
 package utilities
 
 import (
@@ -7,7 +11,7 @@ import (
 
 func GetInput(table []string) string {
 
-	return strings.Join(table," ")
+	return strings.Join(table, " ")
 }
 
 func GetIntInput(table []string) int {
@@ -15,4 +19,3 @@ func GetIntInput(table []string) int {
 
 	return int(justString)
 }
-
