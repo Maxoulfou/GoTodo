@@ -1,5 +1,5 @@
 /*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
+Copyright © 2022 Brochier Maxence maxence@brochier.xyz
 
 */
 package cmd
@@ -14,7 +14,11 @@ import (
 var delCmd = &cobra.Command{
 	Use:   "del",
 	Short: "Delete todo",
-	Long: `Delete todo`,
+	Long: `Delete todo
+To delete an entry, do the list command just before, 
+the # designates the ID of the task (the index here 
+starts at 1).
+Do gotodo del <id>`,
 	Run: func(cmd *cobra.Command, args []string) {
 		execution.DeleteTodo()
 	},
@@ -22,14 +26,4 @@ var delCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(delCmd)
-
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// delCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// delCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
