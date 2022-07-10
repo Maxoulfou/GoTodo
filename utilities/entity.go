@@ -9,6 +9,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/alexeyco/simpletable"
+	"github.com/gookit/color"
 	"io/ioutil"
 	"os"
 	"time"
@@ -33,6 +34,8 @@ func (t *Todos) Add(task string) {
 	}
 
 	*t = append(*t, todo)
+
+	color.Info.Printf("Todo %+v is successfully added !", todo.Task)
 }
 
 func (t *Todos) Complete(index int) error {
@@ -55,6 +58,8 @@ func (t *Todos) Delete(index int) error {
 	}
 
 	*t = append(ls[:index-1], ls[index:]...)
+
+	color.Danger.Printf("Todo %+v is successfully deleted !", ls[index-1].Task)
 
 	return nil
 }
