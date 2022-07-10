@@ -48,6 +48,6 @@ MD5 : 2e219204eab5c131c5125f6b1a49003c
 
 ### How to get checksum with my CMD ?
 
-> `Certutil -hashfile gotodo.exe MD5`
+`Certutil -hashfile gotodo.exe MD5`
 
-> `Certutil -hashfile gotodo.exe SHA1`
+`Certutil -hashfile gotodo.exe SHA1`
