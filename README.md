@@ -43,9 +43,9 @@ Use "gotodo [command] --help" for more information about a command.
 
 > Theses checksum are valid only for my executable in Releases
 
-SHA1 : e632fe821723432c8a9cdc401c1678ead3b0ddb2
+SHA1 : 3419c8da7c400bb1ceeb00767b9a84dfc315e031
 
-MD5 : 2e219204eab5c131c5125f6b1a49003c
+MD5 : 503457e4670121141fe0c181b7fd3f4e
 
 ### How to get checksum with my CMD ?
 
