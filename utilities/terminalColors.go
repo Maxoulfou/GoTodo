@@ -19,17 +19,21 @@ const (
 )
 
 func Red(s string) string {
+
 	return fmt.Sprintf("%s%s%s", ColorRed, s, ColorDefault)
 }
 
 func Green(s string) string {
+
 	return fmt.Sprintf("%s%s%s", ColorGreen, s, ColorDefault)
 }
 
 func Blue(s string) string {
+
 	return fmt.Sprintf("%s%s%s", ColorBlue, s, ColorDefault)
 }
 
 func Gray(s string) string {
+
 	return fmt.Sprintf("%s%s%s", ColorGray, s, ColorDefault)
 }
